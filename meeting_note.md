@@ -1,6 +1,6 @@
 ---------- MEETING NOTE ----------<br>
 ---- 19 / 09 / 2026 ----<br>
-
+------ Tuần 1 ------ <br>
 __ Nguyen Duc Binh <br>
 Task Complete : None <br>
 Work in progress : None <br>
@@ -17,6 +17,7 @@ Work in progress : None <br>
 Roadblocks : None <br>
 Plan for the next day : None <br>
 ---- 26 / 09 / 2026 ---- <br>
+------ Tuần 2 ------ <br>
 __Nguyen Duc Binh<br>
 Task Complete : Tổng hợp thông tin commit lên github <br>
 Work in progress : None <br> 
