@@ -8,21 +8,21 @@ Working : None
 <br>
 Roadblocks : None 
 <br>
-Plan for the next day : None 
----- 26 / 09 / 2026 ----
-Nguyen Duc Binh
-Task Complete : Đã hoàn thành tiến độ 
-Working : Tổng hợp thông tin commit lên github  
-Roadblock : None 
-Plan for the next day : None 
-Nguyen Cong Anh
-Task Complete : Đã hoàn thành tiến độ 
-Working : Lấy ý tưởng
-Roadblock : None
-Plan for the next
-Duong Anh Tuan 
-Task Complete : Đã hoàn thành tiến độ 
-Working : Tìm kiếm thông tin
-Roadblock : None
-Plan for the next day : None 
+Plan for the next day : None <br>
+---- 26 / 09 / 2026 ---- <br>
+Nguyen Duc Binh<br>
+Task Complete : Đã hoàn thành tiến độ <br>
+Working : Tổng hợp thông tin commit lên github <br> 
+Roadblock : None <br>
+Plan for the next day : None <br> 
+Nguyen Cong Anh <br>
+Task Complete : Đã hoàn thành tiến độ <br>
+Working : Lấy ý tưởng <br>
+Roadblock : None <br>
+Plan for the next <br>
+Duong Anh Tuan <br>
+Task Complete : Đã hoàn thành tiến độ <br>
+Working : Tìm kiếm thông tin <br>
+Roadblock : None <br>
+Plan for the next day : None <br>
 
