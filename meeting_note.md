@@ -1,5 +1,6 @@
 ---------- MEETING NOTE ----------<br>
 ---- 19 / 09 / 2026 ----<br>
+
 Nguyen Duc Binh <br>
 Task Complete : None <br>
 Work in progress : None <br>
