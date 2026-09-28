@@ -3,8 +3,11 @@
 Nguyen Duc Binh
 <br>
 Task Complete : None 
+<br>
 Working : None 
+<br>
 Roadblocks : None 
+<br>
 Plan for the next day : None 
 ---- 26 / 09 / 2026 ----
 Nguyen Duc Binh
