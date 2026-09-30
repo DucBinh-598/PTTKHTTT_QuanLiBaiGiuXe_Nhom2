@@ -50,3 +50,13 @@ Task Complete : Thu thập thông tin quy trình gửi xe và lấy xe <br>
 Work in progress : None <br>
 Roadblock : None <br>
 Plan for the next day : None <br>
+__Nguyen Cong Anh <br>
+Task Complete : Vẽ Activity Diagram cho quy trình gửi xe và lấy xe <br>
+Work in progress : None <br>
+Roadblock : None <br>
+Plan for the next day : None <br>
+__Nguyen Cong Anh <br>
+Task Complete : Xác định tác nhân (Sinh viên, Bảo vệ, Quản trị viên) <br>
+Work in progress : None <br>
+Roadblock : None <br>
+Plan for the next day : None <br>
