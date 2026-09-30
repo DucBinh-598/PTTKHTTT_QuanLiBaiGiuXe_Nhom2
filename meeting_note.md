@@ -45,3 +45,8 @@ Task Complete : Lập kế hoạch thực hiện <br>
 Work in progress : Theo dõi tiến độ từng thành viên, Ghi nhật ký sử dụng Al, Kiểm tra lỗi chính tả và định dạng <br>
 Roadblock : None <br>
 Plan for the next day : None <br>
+__Nguyen Cong Anh <br>
+Task Complete : Thu thập thông tin quy trình gửi xe và lấy xe <br>
+Work in progress : None <br>
+Roadblock : None <br>
+Plan for the next day : None <br>
