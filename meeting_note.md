@@ -61,7 +61,12 @@ Work in progress : None <br>
 Roadblock : None <br>
 Plan for the next day : None <br>
 __Nguyen Cong Anh <br>
-Task Complete : Phân tích yêu cầu chức năng và phi chức năng <br>
+Task Complete : Vẽ Use Case Diagram <br>
 Work in progress : None <br>
+Roadblock : None <br>
+Plan for the next day : None <br>
+__Nguyen Cong Anh <br>
+Task Complete : Phân tích yêu cầu chức năng và phi chức năng <br>
+Work in progress : Viết phần Giới thiệu đề tài và Khảo sát hiện trạng trong báo cáo <br>
 Roadblock : None <br>
 Plan for the next day : None <br>
