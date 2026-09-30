@@ -60,3 +60,8 @@ Task Complete : Xác định tác nhân (Sinh viên, Bảo vệ, Quản trị vi
 Work in progress : None <br>
 Roadblock : None <br>
 Plan for the next day : None <br>
+__Nguyen Cong Anh <br>
+Task Complete : Phân tích yêu cầu chức năng và phi chức năng <br>
+Work in progress : None <br>
+Roadblock : None <br>
+Plan for the next day : None <br>
