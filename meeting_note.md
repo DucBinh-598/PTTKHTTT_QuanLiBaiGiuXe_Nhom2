@@ -37,7 +37,7 @@ __Nguyen Cong Anh <br>
 Task Complete : Xác định các vấn đề của hệ thống hiện tại <br>
 Work in progress : Thu thập thông tin quy trình gửi xe và lấy xe <br>
 Roadblock : None <br>
-Plan for the next <br>
+Plan for the next day : None <br>
 __Duong Anh Tuan <br>
 Task Complete : Lập kế hoạch thực hiện <br>
 Work in progress : Theo dõi tiến độ từng thành viên, Ghi nhật ký sử dụng Al, Kiểm tra lỗi chính tả và định dạng <br>
