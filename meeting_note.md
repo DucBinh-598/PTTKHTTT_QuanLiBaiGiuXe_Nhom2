@@ -33,6 +33,8 @@ Task Complete : Tìm kiếm thông tin trên mạng <br>
 Work in progress : None <br>
 Roadblock : None <br>
 Plan for the next day : None <br>
+---- 30 / 09 / 2026 ---- <br>
+------ Tuần 3 ------ <br>
 __Nguyen Cong Anh <br>
 Task Complete : Xác định các vấn đề của hệ thống hiện tại <br>
 Work in progress : Thu thập thông tin quy trình gửi xe và lấy xe <br>
