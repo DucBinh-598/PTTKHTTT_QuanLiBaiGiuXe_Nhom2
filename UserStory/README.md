@@ -1,7 +1,7 @@
 # DANH MỤC CÁC USER STORY (AGILE USER STORIES)
 ## HỆ THỐNG QUẢN LÝ BÃI GIỮ XE TRƯỜNG HỌC (SMART PARKING SYSTEM)
 **Chủ đề trọng tâm:** Quản lý Luồng Xe Vào/Ra (RFID & AI Camera Check-in/Check-out), Cảnh báo An ninh & Thống kê Doanh thu / Lượt xe  
-**Tài liệu cơ sở:** [DacTa.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/DacTa.md) và [SRS.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/SRS.md)  
+**Tài liệu cơ sở:** [DacTa.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/DacTa.md) và [SRS.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/SRS.md)
 **Phiên bản:** 1.0  
 **Ngày lập:** 05/10/2026  
 
@@ -24,49 +24,51 @@ Mỗi User Story được tổ chức thành một file Markdown độc lập tr
 
 ## 2. MA TRẬN TRUY VẾT YÊU CẦU (TRACEABILITY MATRIX)
 
-Bảng đối chiếu 1-1 giữa User Stories với Use Case ([DacTa.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/DacTa.md)) và Yêu cầu chức năng ([SRS.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/SRS.md)):
+Bảng đối chiếu 1-1 giữa User Stories với Use Case (DacTa.md) và Yêu cầu chức năng (SRS.md):
 
 | Mã US | Tên User Story | Phân hệ | Use Case (DacTa.md) | Yêu cầu SRS (SRS.md) | Tác nhân chính | File chi tiết |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| **US01** | Quản lý Danh mục Thẻ xe (RFID) | Phân hệ 1 | **UC01** | **[FR-MD-01]** | Quản trị viên | [US01_QuanLyDanhMucTheXe.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US01_QuanLyDanhMucTheXe.md) |
-| **US02** | Đăng ký & Cấp phát Thẻ tháng Sinh viên | Phân hệ 1 | **UC02** | **[FR-MD-02]** | Quản trị viên | [US02_DangKyCapPhatTheThang.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US02_DangKyCapPhatTheThang.md) |
-| **US03** | Thiết lập Bảng giá & Khung giờ Gửi xe | Phân hệ 1 | **UC03** | **[FR-MD-03]** | Quản trị viên | [US03_ThietLapBangGiaKhungGio.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US03_ThietLapBangGiaKhungGio.md) |
-| **US04** | Xử lý Xe Vào & Quét Thẻ RFID (Check-in) | Phân hệ 2 | **UC04** | **[FR-POS-01]** | Bảo vệ | [US04_XuLyXeVaoCheckIn.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US04_XuLyXeVaoCheckIn.md) |
-| **US05** | Tự động Chụp ảnh & Nhận diện Biển số Vào (AI ALPR) | Phân hệ 2 | **UC05** | **[FR-POS-02]** | Hệ thống / Bảo vệ | [US05_NhanDienBienSoVao.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US05_NhanDienBienSoVao.md) |
-| **US06** | Xử lý Xe Ra & Đối soát Biển số (Check-out) | Phân hệ 2 | **UC06** | **[FR-POS-03]** | Bảo vệ | [US06_XuLyXeRaCheckOut.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US06_XuLyXeRaCheckOut.md) |
-| **US07** | Cảnh báo Sai lệch Biển số & Khóa Barem (Anti-theft) | Phân hệ 2 | **UC07** | **[FR-POS-04]** | Bảo vệ / Hệ thống | [US07_CanhBaoSaiLechBienSo.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US07_CanhBaoSaiLechBienSo.md) |
-| **US08** | Cho phép Xác nhận Cho Ra Thủ công (Override Warning) | Phân hệ 2 | **UC08** | **[FR-POS-05]** | Bảo vệ | [US08_XacNhanChoRaThuCong.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US08_XacNhanChoRaThuCong.md) |
-| **US09** | Tra cứu Vị trí & Lịch sử Xe trong Bãi | Phân hệ 3 | **UC09** | **[FR-INV-01]** | Bảo vệ / Sinh viên | [US09_TraCuuLichSuXeTrongBai.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US09_TraCuuLichSuXeTrongBai.md) |
-| **US10** | Xử lý Sự cố Mất thẻ / Khóa thẻ khẩn cấp | Phân hệ 3 | **UC10** | **[FR-INV-02]** | Bảo vệ / Quản trị viên | [US10_XuLySuCoMatTheXe.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US10_XuLySuCoMatTheXe.md) |
-| **US11** | Kiểm kê Sức chứa Bãi xe & Điều phối Luồng | Phân hệ 3 | **UC11** | **[FR-INV-03]** | Bảo vệ | [US11_KiemKeSucChuaBaiXe.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US11_KiemKeSucChuaBaiXe.md) |
-| **US12** | Quét & Cảnh báo Xe Tồn Kho quá 24h / Xe Lạ | Phân hệ 4 | **UC12** | **[FR-REP-01]** | Hệ thống / Bảo vệ | [US12_QuetCanhBaoXeTonKhoQuaHan.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US12_QuetCanhBaoXeTonKhoQuaHan.md) |
-| **US13** | Báo cáo Mật độ Lượt xe Vào/Ra theo Khung giờ | Phân hệ 4 | **UC13** | **[FR-REP-02]** | Quản trị viên / Bảo vệ | [US13_XemBaoCaoMatDoLuotXe.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US13_XemBaoCaoMatDoLuotXe.md) |
-| **US14** | Báo cáo Doanh thu Bán vé lượt & Vé tháng | Phân hệ 4 | **UC14** | **[Báo cáo TC]** | Quản trị viên | [US14_XemBaoCaoDoanhThuBaiXe.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US14_XemBaoCaoDoanhThuBaiXe.md) |
-| **US15** | Quản lý Tài khoản & Phân quyền RBAC (Phần mềm Bãi xe) | Phân hệ 4 | **UC15** | **[NFR-SEC-01]** | Quản trị viên | [US15_QuanLyTaiKhoan_PhanQuyen.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/user_stories/US15_QuanLyTaiKhoan_PhanQuyen.md) |
+| **US01** | Quản lý Danh mục Thẻ xe (RFID) | Phân hệ 1 | **UC01** | **[FR-MD-01]** | Quản trị viên | [US01_QuanLyDanhMucTheXe.md](user_stories/US01_QuanLyDanhMucTheXe.md) |
+| **US02** | Đăng ký & Cấp phát Thẻ tháng Sinh viên | Phân hệ 1 | **UC02** | **[FR-MD-02]** | Quản trị viên | [US02_DangKyCapPhatTheThang.md](user_stories/US02_DangKyCapPhatTheThang.md) |
+| **US03** | Thiết lập Bảng giá & Khung giờ Gửi xe | Phân hệ 1 | **UC03** | **[FR-MD-03]** | Quản trị viên | [US03_ThietLapBangGiaKhungGio.md](user_stories/US03_ThietLapBangGiaKhungGio.md) |
+| **US04** | Xử lý Xe Vào & Quét Thẻ RFID (Check-in) | Phân hệ 2 | **UC04** | **[FR-POS-01]** | Bảo vệ | [US04_XuLyXeVaoCheckIn.md](user_stories/US04_XuLyXeVaoCheckIn.md) |
+| **US05** | Tự động Chụp ảnh & Nhận diện Biển số Vào (AI ALPR) | Phân hệ 2 | **UC05** | **[FR-POS-02]** | Hệ thống / Bảo vệ | [US05_NhanDienBienSoVao.md](user_stories/US05_NhanDienBienSoVao.md) |
+| **US06** | Xử lý Xe Ra & Đối soát Biển số (Check-out) | Phân hệ 2 | **UC06** | **[FR-POS-03]** | Bảo vệ | [US06_XuLyXeRaCheckOut.md](user_stories/US06_XuLyXeRaCheckOut.md) |
+| **US07** | Cảnh báo Sai lệch Biển số & Khóa Barem (Anti-theft) | Phân hệ 2 | **UC07** | **[FR-POS-04]** | Bảo vệ / Hệ thống | [US07_CanhBaoSaiLechBienSo.md](user_stories/US07_CanhBaoSaiLechBienSo.md) |
+| **US08** | Cho phép Xác nhận Cho Ra Thủ công (Override Warning) | Phân hệ 2 | **UC08** | **[FR-POS-05]** | Bảo vệ | [US08_XacNhanChoRaThuCong.md](user_stories/US08_XacNhanChoRaThuCong.md) |
+| **US09** | Tra cứu Vị trí & Lịch sử Xe trong Bãi | Phân hệ 3 | **UC09** | **[FR-INV-01]** | Bảo vệ / Sinh viên | [US09_TraCuuLichSuXeTrongBai.md](user_stories/US09_TraCuuLichSuXeTrongBai.md) |
+| **US10** | Xử lý Sự cố Mất thẻ / Khóa thẻ khẩn cấp | Phân hệ 3 | **UC10** | **[FR-INV-02]** | Bảo vệ / Quản trị viên | [US10_XuLySuCoMatTheXe.md](user_stories/US10_XuLySuCoMatTheXe.md) |
+| **US11** | Kiểm kê Sức chứa Bãi xe & Điều phối Luồng | Phân hệ 3 | **UC11** | **[FR-INV-03]** | Bảo vệ | [US11_KiemKeSucChuaBaiXe.md](user_stories/US11_KiemKeSucChuaBaiXe.md) |
+| **US12** | Quét & Cảnh báo Xe Tồn Kho quá 24h / Xe Lạ | Phân hệ 4 | **UC12** | **[FR-REP-01]** | Hệ thống / Bảo vệ | [US12_QuetCanhBaoXeTonKhoQuaHan.md](user_stories/US12_QuetCanhBaoXeTonKhoQuaHan.md) |
+| **US13** | Báo cáo Mật độ Lượt xe Vào/Ra theo Khung giờ | Phân hệ 4 | **UC13** | **[FR-REP-02]** | Quản trị viên / Bảo vệ | [US13_XemBaoCaoMatDoLuotXe.md](user_stories/US13_XemBaoCaoMatDoLuotXe.md) |
+| **US14** | Báo cáo Doanh thu Bán vé lượt & Vé tháng | Phân hệ 4 | **UC14** | **[Báo cáo TC]** | Quản trị viên | [US14_XemBaoCaoDoanhThuBaiXe.md](user_stories/US14_XemBaoCaoDoanhThuBaiXe.md) |
+| **US15** | Quản lý Tài khoản & Phân quyền RBAC (Phần mềm Bãi xe) | Phân hệ 4 | **UC15** | **[NFR-SEC-01]** | Quản trị viên | [US15_QuanLyTaiKhoan_PhanQuyen.md](user_stories/US15_QuanLyTaiKhoan_PhanQuyen.md) |
 
 ---
 
 ## 3. PHÂN BỔ THEO PHÂN HỆ CHỨC NĂNG
-HỆ THỐNG QUẢN LÝ BÃI GIỮ XE TRƯỜNG HỌC (SMART PARKING)
-├── Phân hệ 1: Quản lý Danh mục & Cấu hình Hệ thống (Master Data)
-│   ├── US01: Quản lý Danh mục Thẻ xe (RFID)
-│   ├── US02: Đăng ký & Cấp phát Thẻ tháng Sinh viên
-│   └── US03: Thiết lập Bảng giá & Khung giờ Gửi xe
-├── Phân hệ 2: Quản lý Luồng xe Vào/Ra & Nhận diện AI (Check-in / Check-out)
-│   ├── US04: Xử lý Xe Vào & Quét Thẻ RFID (Check-in)
-│   ├── US05: Tự động Chụp ảnh & Nhận diện Biển số Vào (AI ALPR)
-│   ├── US06: Xử lý Xe Ra & Đối soát Biển số (Check-out)
-│   ├── US07: Cảnh báo Sai lệch Biển số & Khóa Barem (Anti-theft Logic)
-│   └── US08: Cho phép Xác nhận Cho Ra Thủ công (Override Warning)
-├── Phân hệ 3: Quản lý Bãi xe & Xử lý Sự cố (Parking Operations & Incidents)
-│   ├── US09: Tra cứu Vị trí & Lịch sử Xe trong Bãi
-│   ├── US10: Xử lý Sự cố Mất thẻ / Khóa thẻ khẩn cấp
-│   └── US11: Kiểm kê Sức chứa Bãi xe & Điều phối Luồng
-└── Phân hệ 4: Cảnh báo, Báo cáo & Quản trị (Alerts, Reports & Admin)
-├── US12: Quét & Cảnh báo Xe Tồn Kho quá 24h / Xe Lạ
-├── US13: Báo cáo Mật độ Lượt xe Vào/Ra theo Khung giờ
-├── US14: Báo cáo Doanh thu Bán vé lượt & Vé tháng
-└── US15: Quản lý Tài khoản & Phân quyền RBAC
+
+* **HỆ THỐNG QUẢN LÝ BÃI GIỮ XE TRƯỜNG HỌC (SMART PARKING)**
+  * **Phân hệ 1: Quản lý Danh mục & Cấu hình Hệ thống (Master Data)**
+    * `US01`: Quản lý Danh mục Thẻ xe (RFID)
+    * `US02`: Đăng ký & Cấp phát Thẻ tháng Sinh viên
+    * `US03`: Thiết lập Bảng giá & Khung giờ Gửi xe
+  * **Phân hệ 2: Quản lý Luồng xe Vào/Ra & Nhận diện AI (Check-in / Check-out)**
+    * `US04`: Xử lý Xe Vào & Quét Thẻ RFID (Check-in)
+    * `US05`: Tự động Chụp ảnh & Nhận diện Biển số Vào (AI ALPR)
+    * `US06`: Xử lý Xe Ra & Đối soát Biển số (Check-out)
+    * `US07`: Cảnh báo Sai lệch Biển số & Khóa Barem (Anti-theft Logic)
+    * `US08`: Cho phép Xác nhận Cho Ra Thủ công (Override Warning)
+  * **Phân hệ 3: Quản lý Bãi xe & Xử lý Sự cố (Parking Operations & Incidents)**
+    * `US09`: Tra cứu Vị trí & Lịch sử Xe trong Bãi
+    * `US10`: Xử lý Sự cố Mất thẻ / Khóa thẻ khẩn cấp
+    * `US11`: Kiểm kê Sức chứa Bãi xe & Điều phối Luồng
+  * **Phân hệ 4: Cảnh báo, Báo cáo & Quản trị (Alerts, Reports & Admin)**
+    * `US12`: Quét & Cảnh báo Xe Tồn Kho quá 24h / Xe Lạ
+    * `US13`: Báo cáo Mật độ Lượt xe Vào/Ra theo Khung giờ
+    * `US14`: Báo cáo Doanh thu Bán vé lượt & Vé tháng
+    * `US15`: Quản lý Tài khoản & Phân quyền RBAC
+
 ---
 
 ## 4. MA TRẬN TÁC NHÂN VS USER STORY
