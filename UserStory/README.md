@@ -1,7 +1,7 @@
 # DANH MỤC CÁC USER STORY (AGILE USER STORIES)
 ## HỆ THỐNG QUẢN LÝ BÃI GIỮ XE TRƯỜNG HỌC (SMART PARKING SYSTEM)
 **Chủ đề trọng tâm:** Quản lý Luồng Xe Vào/Ra (RFID & AI Camera Check-in/Check-out), Cảnh báo An ninh & Thống kê Doanh thu / Lượt xe  
-**Tài liệu cơ sở:** [DacTa.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/DacTa.md) và [SRS.md](file:///d:/0%20-%20Client/VIDO/PTTKHTTH/PARKING_SYSTEM/SRS.md)
+**Tài liệu cơ sở:** 
 **Phiên bản:** 1.0  
 **Ngày lập:** 05/10/2026  
 
