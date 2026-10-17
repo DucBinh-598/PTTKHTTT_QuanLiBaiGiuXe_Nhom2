@@ -10,7 +10,7 @@
 * **Tác nhân chính:** Quản trị viên (Admin)
 * **Mức độ ưu tiên (MoSCoW):** High (Must Have)
 * **Trạng thái:** Approved
-* **Tài liệu tham chiếu:** [DacTa.md](../Khảo%20sát%20hiện%20trạng%20bãi%20giữ%20xe%20củ...) (UC01), [SRS.md](../SRS.md) ([FR-MD-01])
+* **Tài liệu tham chiếu:** [DacTa.md](../DacTa.md) (UC01), [SRS.md](../SRS.md) ([FR-MD-01])
 
 ---
 
