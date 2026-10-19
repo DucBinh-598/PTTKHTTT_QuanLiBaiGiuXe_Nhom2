@@ -1,7 +1,3 @@
-
-
- 📄 File 2: `US02_DangKyCapPhatTheThang.md`
-
 # USER STORY: US02 - ĐĂNG KÝ & CẤP PHÁT THỂ THÁNG SINH VIÊN
 
 ---
