@@ -1,3 +1,6 @@
+# USER STORY: US05 - TỰ ĐỘNG CHỤP ẢNH & NHẬN DIỆN BIỂN SỐ VÀO (AI ALPR)
+
+---
 ## 1. THÔNG TIN CHUNG (METADATA)
 
 * **Mã User Story:** US05
