@@ -1,7 +1,3 @@
-***
-
-### 📄 File 3: `US03_ThietLapBangGiaKhungGio.md`
-```markdown
 # USER STORY: US03 - THIẾT LẬP BẢNG GIÁ & KHUNG GIỜ GỬI XE
 
 ---
