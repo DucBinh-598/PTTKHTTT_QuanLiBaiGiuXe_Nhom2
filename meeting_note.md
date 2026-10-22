@@ -70,3 +70,6 @@ Task Complete : Phân tích yêu cầu chức năng và phi chức năng <br>
 Work in progress : Viết phần Giới thiệu đề tài và Khảo sát hiện trạng trong báo cáo <br>
 Roadblock : None <br>
 Plan for the next day : None <br>
+------ Tuần 4 ------ <br>
+__Nguyen Duc Binh
+Task Complete : None <br>
