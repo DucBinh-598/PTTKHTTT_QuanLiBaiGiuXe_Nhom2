@@ -73,3 +73,9 @@ Plan for the next day : None <br>
 ------ Tuần 4 ------ <br>
 __Nguyen Duc Binh
 Task Complete : None <br>
+------ Tuần 7 ------ <br>
+__Duong Anh Tuan <br>
+Task Complete : Add database schema and documentation(upload hồ sơ database <br>
+Work in progress : Theo dõi tiến độ từng thành viên, Ghi nhật ký sử dụng Al, Kiểm tra lỗi chính tả và định dạng <br>
+Roadblock : None <br>
+Plan for the next day : None <br>
