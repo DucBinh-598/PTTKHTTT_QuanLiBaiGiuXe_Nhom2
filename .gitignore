@@ -3,6 +3,7 @@ cd E:\PTTKHTTT_QuanLiBaiGiuXe_Nhom2
 node_modules/
 dist/
 build/
+.vscode/
 .env
 .env.*
 !.env.example
