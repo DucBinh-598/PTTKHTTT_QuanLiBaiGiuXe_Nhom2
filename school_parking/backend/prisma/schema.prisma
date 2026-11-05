@@ -1,0 +1,93 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum PermitStatus {
+  ACTIVE
+  EXPIRING
+  EXPIRED
+}
+
+enum VehicleType {
+  MOTORCYCLE
+  ELECTRIC_BICYCLE
+  BICYCLE
+}
+
+enum MovementType {
+  ENTRY
+  EXIT
+}
+
+model User {
+  id           String   @id @default(cuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Student {
+  id          String       @id
+  name        String
+  className   String
+  program     String
+  phone       String
+  permitUntil DateTime     @db.Date
+  status      PermitStatus @default(ACTIVE)
+  vehicles    Vehicle[]
+  movements   Movement[]
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  @@index([name])
+  @@index([status, permitUntil])
+}
+
+model Vehicle {
+  id           String      @id @default(cuid())
+  studentId    String
+  plate        String      @unique
+  type         VehicleType
+  color        String
+  registeredAt DateTime    @default(now()) @db.Date
+  inParking    Boolean     @default(false)
+  student      Student     @relation(fields: [studentId], references: [id], onDelete: Restrict)
+  movements    Movement[]
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+
+  @@index([studentId])
+  @@index([inParking])
+}
+
+model Movement {
+  id        String       @id @default(cuid())
+  studentId String
+  vehicleId String
+  type      MovementType
+  timestamp DateTime     @default(now())
+  gate      String       @default("Cổng chính")
+  student   Student      @relation(fields: [studentId], references: [id], onDelete: Restrict)
+  vehicle   Vehicle      @relation(fields: [vehicleId], references: [id], onDelete: Restrict)
+
+  @@index([timestamp])
+  @@index([type, timestamp])
+  @@index([studentId, timestamp])
+}
+
+model ParkingSettings {
+  id           String   @id @default("default")
+  schoolName   String   @default("Trường Đại học Công nghệ")
+  lotName      String   @default("Bãi xe sinh viên")
+  capacity     Int      @default(180)
+  mainGate     String   @default("Cổng chính")
+  contactEmail String   @default("baixe@university.edu.vn")
+  updatedAt    DateTime @updatedAt
+}
