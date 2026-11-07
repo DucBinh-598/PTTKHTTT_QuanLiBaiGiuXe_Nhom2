@@ -1,0 +1,27 @@
+{
+  "name": "school-parking-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:seed": "prisma db seed",
+    "db:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.0.0",
+    "@prisma/client": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "openai": "^5.20.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prisma": "^7.0.0"
+  }
+}

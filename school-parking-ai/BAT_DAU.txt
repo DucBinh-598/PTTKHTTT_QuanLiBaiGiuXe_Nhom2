@@ -1,0 +1,22 @@
+SCHOOL PARKING AI - HUONG DAN NHANH
+
+1) Cai Node.js va PostgreSQL.
+2) Tao database ten school_parking trong PostgreSQL.
+3) Vao backend, copy .env.example thanh .env.
+4) Sua DATABASE_URL va OPENAI_API_KEY trong backend/.env.
+5) Terminal 1:
+   cd backend
+   npm install
+   npm run db:generate
+   npm run db:migrate
+   npm run db:seed
+   npm run dev
+6) Terminal 2:
+   cd frontend
+   copy .env.example thanh .env (neu can)
+   npm install
+   npm run dev
+7) Mo http://localhost:5173
+
+Luu y: Day la ban MVP phuc vu hoc tap, chua co dang nhap/JWT/phan quyen.
+Khong dung du lieu hoc sinh that truoc khi bo sung bao mat.

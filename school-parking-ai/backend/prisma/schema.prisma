@@ -1,0 +1,68 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum UserRole {
+  ADMIN
+  STAFF
+  STUDENT
+  TEACHER
+}
+
+enum VehicleType {
+  BICYCLE
+  ELECTRIC_BICYCLE
+  ELECTRIC_MOTORBIKE
+  MOTORBIKE
+}
+
+enum SessionStatus {
+  PARKING
+  COMPLETED
+}
+
+model User {
+  id        Int       @id @default(autoincrement())
+  name      String
+  email     String    @unique
+  studentId String?   @unique
+  role      UserRole  @default(STUDENT)
+  vehicles  Vehicle[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+model Vehicle {
+  id          Int         @id @default(autoincrement())
+  plateNumber String      @unique
+  type        VehicleType
+  description String?
+  ownerId     Int
+  owner       User        @relation(fields: [ownerId], references: [id])
+  sessions    ParkingSession[]
+  createdAt   DateTime    @default(now())
+}
+
+model ParkingArea {
+  id        Int       @id @default(autoincrement())
+  name      String
+  capacity  Int
+  sessions  ParkingSession[]
+  createdAt DateTime  @default(now())
+}
+
+model ParkingSession {
+  id        Int           @id @default(autoincrement())
+  vehicleId Int
+  vehicle   Vehicle       @relation(fields: [vehicleId], references: [id])
+  areaId    Int
+  area      ParkingArea   @relation(fields: [areaId], references: [id])
+  entryAt   DateTime      @default(now())
+  exitAt    DateTime?
+  status    SessionStatus @default(PARKING)
+}
